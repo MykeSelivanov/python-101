@@ -8,6 +8,17 @@
 
 # None - signify emptiness
 
+'''
+hello this 
+is a multiline
+comment
+'''
+
+"""
+this is a multiline
+comment as well
+"""
+
 print("Hello")
 print(4)
 print(type(5))
