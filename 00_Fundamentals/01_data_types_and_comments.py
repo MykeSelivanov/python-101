@@ -26,9 +26,3 @@ print(type(5.123))
 print(type(True))
 print(type(" string "))
 print(type(None))
-   
-print('test')
-def new_func(a,b):
-    print('hello')
-
-print('test123')
