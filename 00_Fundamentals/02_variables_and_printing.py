@@ -19,5 +19,3 @@ print(y)
 print(num)
 x = 4
 print(x)
-
-
