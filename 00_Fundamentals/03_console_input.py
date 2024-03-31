@@ -4,5 +4,5 @@ print(num)
 print(type(num))
 
 name = input("Enter your name: ")
-age = input("Hello " + name + "what is your age? ")
-print(age)
+age = input("Hello " + name + " what is your age? ")
+print("Hi", name, "you are", age, "years old!")
