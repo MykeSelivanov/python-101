@@ -32,3 +32,15 @@ a = 2
 b = 0
 result = a**b
 print(result)
+
+a = 10
+b = -1
+result = a ** b
+print(result)
+
+# Integer division operator
+x = 10
+y = 3
+result = x // y
+print(result)
+
