@@ -44,3 +44,20 @@ y = 3
 result = x // y
 print(result)
 
+# Modulus (remainder)
+x = 11
+y = 3
+result = x % y
+print(result)
+
+# Order of operations (operators precedence)
+# 1 brackets/parenthesis
+# 2 exponents
+# 3 multiplication and divison and modulus
+# 4 addition subtraction
+x = 20
+y = 5
+result = x % y + 4 - 7 ** 2 / 3
+print(result)
+
+
