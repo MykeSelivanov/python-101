@@ -18,3 +18,9 @@ print(y) # false
 y = bool(0)
 print(y) # false
 
+x = str(1) + " hello"
+print(x)
+
+number = input("Enter a number: ")
+result = float(number) + 5
+print("The result is: ", result)
