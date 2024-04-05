@@ -11,3 +11,10 @@ print(cond)
 x = 5
 y = 6
 print(x == y)
+
+cond = x < 9
+print(cond)
+
+cond = x >= 5
+print(cond)
+
