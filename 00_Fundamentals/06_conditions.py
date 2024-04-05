@@ -33,3 +33,5 @@ cond = True == 1 # True
 print(cond)
 cond = False == 0 # True
 print(cond)
+True == "" # False
+True == "True" # False
