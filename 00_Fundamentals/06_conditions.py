@@ -18,3 +18,14 @@ print(cond)
 cond = x >= 5
 print(cond)
 
+# Compare strings
+str1 = "hello"
+str2 = "hello"
+cond = str1 == str2
+print(cond) # True
+
+str1 = "a"
+str2 = "b"
+cond = str1 < str2
+print(cond)
+
