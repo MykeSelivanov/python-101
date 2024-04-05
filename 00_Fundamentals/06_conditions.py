@@ -29,3 +29,7 @@ str2 = "b"
 cond = str1 < str2
 print(cond)
 
+cond = True == 1 # True
+print(cond)
+cond = False == 0 # True
+print(cond)
