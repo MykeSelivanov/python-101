@@ -1,4 +1,7 @@
 name = input("Name: ")
-
 if name == "Tim":
-    print("Tim")
+    print("Hello Tim!")
+
+number = float(input("Enter a number below 5: "))
+if number < 5:
+    print("Number ", number, "is less than 5!")
