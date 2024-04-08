@@ -26,4 +26,3 @@ print(compound)
 # 1 - not - compound = True or False and False or False
 # 2 - and - compound = True or False or False
 # 3 - or - compound = True or False, compound = True
-
