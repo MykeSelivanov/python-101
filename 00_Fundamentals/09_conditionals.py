@@ -16,6 +16,10 @@ elif number == 0:
 else:
     print("Provided ", number, " is positive")
 
+# Nested statements
 if number > 0 and number % 2 == 0:
     print(number, " is a positive even number")
+    num2 = float(input("Enter another number: "))
+    if num2 < 0:
+        print(num2, " num2 is a negative number")
 
