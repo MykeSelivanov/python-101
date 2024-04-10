@@ -15,3 +15,7 @@ elif number == 0:
     print("Provided ", number, " is zero")
 else:
     print("Provided ", number, " is positive")
+
+if number > 0 and number % 2 == 0:
+    print(number, " is a positive even number")
+
