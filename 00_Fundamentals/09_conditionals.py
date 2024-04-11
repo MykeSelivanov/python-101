@@ -22,3 +22,13 @@ if number > 0 and number % 2 == 0:
     num2 = float(input("Enter another number: "))
     if num2 < 0:
         print(num2, " num2 is a negative number")
+    else:
+        print(num2, " num2 is a positive number")
+
+# In-Line if statement
+x = 5
+result = "ok" if x > 5 else "not ok"
+print(result)
+
+name = "Mike"
+print("Hello Mike") if name == "Mike" else print('Not Mike')
