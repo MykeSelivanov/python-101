@@ -21,3 +21,6 @@ print(count) # 4
 
 index = x.index(3.14)
 print(index) # 5
+
+remove = x.remove(2)
+print(x) # [1, 'Hello', True, 'World', 3.14, 2, 2, 2]
