@@ -19,5 +19,5 @@ print(x) # [1, 2, 'Hello', True, 'World', 3.14, 2, 2, 2]
 count = x.count(2)
 print(count) # 4
 
-
-
+index = x.index(3.14)
+print(index) # 5
