@@ -24,3 +24,6 @@ print(index) # 5
 
 remove = x.remove(2)
 print(x) # [1, 'Hello', True, 'World', 3.14, 2, 2, 2]
+
+list_contains_5 = 5 in x # another approach would be list_contains_5 = x.count(5) > 0
+print(list_contains_5) # False
