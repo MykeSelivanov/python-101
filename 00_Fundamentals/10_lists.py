@@ -7,7 +7,17 @@ print(x) # [1, 2, 'Hello', True, 'World', 3.14]
 x.append(False)
 print(x) # [1, 2, 'Hello', True, 'World', 3.14, False]
 
+popped = x.pop()
+print(popped) # False
+print(x) # [1, 2, 'Hello', True, 'World', 3.14]
 
+x.append(2)
+x.append(2)
+x.append(2)
+print(x) # [1, 2, 'Hello', True, 'World', 3.14, 2, 2, 2]
+
+count = x.count(2)
+print(count) # 4
 
 
 
