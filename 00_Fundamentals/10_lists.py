@@ -32,3 +32,17 @@ a = x[-1] # negative numbers access list elements from the end
 print(a) # 2
 b = x[-5]
 print(b) # World
+
+# Combine lists
+x = [1,2,3]
+y = [1,2]
+
+combined = x + y
+print(combined)
+
+# Extend one of the lists
+x.extend(y)
+print(x)
+
+# Nested Lists
+lst = [[5,6,[]], [2,3], [1,2,3]]
