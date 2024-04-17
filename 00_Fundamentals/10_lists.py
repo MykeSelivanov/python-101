@@ -45,4 +45,7 @@ x.extend(y)
 print(x)
 
 # Nested Lists
-lst = [[5,6,[]], [2,3], [1,2,3]]
+lst = [[5,6,[100]], [4,10], [1,2,3]]
+print(lst[2][1]) # 2
+print(lst[0][2]) # [100]
+print(lst[0][2][0]) # 100
