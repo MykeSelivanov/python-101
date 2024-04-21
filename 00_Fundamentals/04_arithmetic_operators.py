@@ -59,5 +59,3 @@ x = 20
 y = 5
 result = x % y + 4 - 7 ** 2 / 3
 print(result)
-
-
