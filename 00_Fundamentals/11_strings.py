@@ -23,4 +23,12 @@ if str2.isdigit():
     x = int(str2)
     print(type(x))
 
+num = input("Number: ")
+if num.isdigit():
+    print("It's a number ")
+    print(int(num))
+else:
+    print('This is not a number')
+
+
 
