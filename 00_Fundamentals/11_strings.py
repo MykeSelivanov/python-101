@@ -41,6 +41,7 @@ print(str4)
 
 # f-Strings
 name = input("Name: ")
-str = f"Hello, {name}! Thanks for providing your name!"
+age = input("Your age? ")
+str = f"Hello, {name}, age {age}! Thanks for providing your name and age!"
 print(str)
 
