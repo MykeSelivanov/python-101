@@ -34,3 +34,9 @@ str3 = "Hello, my name is Myke"
 words = str3.split(",")
 print(words)
 
+str4 = "Hello. this is myke"
+str5 = str4.replace(".", ",").replace("m", "M")
+print(str5)
+print(str4)
+
+
