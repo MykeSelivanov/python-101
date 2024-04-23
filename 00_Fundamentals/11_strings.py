@@ -39,4 +39,8 @@ str5 = str4.replace(".", ",").replace("m", "M")
 print(str5)
 print(str4)
 
+# f-Strings
+name = input("Name: ")
+str = f"Hello, {name}! Thanks for providing your name!"
+print(str)
 
