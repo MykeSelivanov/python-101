@@ -45,3 +45,11 @@ age = input("Your age? ")
 str = f"Hello, {name}, age {age}! Thanks for providing your name and age! Also {1 + 1} + {2} equals 4"
 print(str)
 
+# string multiplication
+print("test" * 3) # testtesttest
+
+# multiline string
+mutilne_str = """hello world
+test
+this is a third line!"""
+print(mutilne_str)
