@@ -53,3 +53,7 @@ mutilne_str = """hello world
 test
 this is a third line!"""
 print(mutilne_str)
+
+lst = ["t", "e", "s", "t"]
+str6 = " | ".join(lst) # t | e | s | t
+print(str6)
