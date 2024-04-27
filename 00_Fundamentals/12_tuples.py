@@ -18,4 +18,3 @@ combined = a + b
 print(combined) # (1, 2, 10, 11)
 multiplied = a * 2 # (1, 2, 1, 2)
 print(multiplied)
-
