@@ -18,3 +18,10 @@ combined = a + b
 print(combined) # (1, 2, 10, 11)
 multiplied = a * 2 # (1, 2, 1, 2)
 print(multiplied)
+
+y = 1, 2, 3, 4 # creates as a tuple as well
+print(y)
+
+# create a tuple from another tuple with changes
+z = (y[0], 11, y[2])
+print(z)
