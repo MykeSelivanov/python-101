@@ -12,6 +12,12 @@ for i in range(1, 11):
     result += i
 print("Result: ", result)
 
-lst = [1, 2, 3, 4, 5, True, "Hello"]
+lst = [1, 2, 3, True, "Hello"]
 for i in range(len(lst)):
     print(lst[i])
+
+for element in lst:
+    print(element)
+
+for i, element in enumerate(lst):
+    print("Idx: ", i, "Element: ", element)
