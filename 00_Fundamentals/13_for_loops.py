@@ -21,3 +21,11 @@ for element in lst:
 
 for i, element in enumerate(lst):
     print("Idx: ", i, "Element: ", element)
+
+tup = (2, 3, 4, "Hello", "world", True)
+for i in range(len(tup)):
+    element = tup[i]
+    print(element)
+
+for i, element in enumerate(tup):
+    print(i, element)
