@@ -29,3 +29,7 @@ for i in range(len(tup)):
 
 for i, element in enumerate(tup):
     print(i, element)
+
+str = "my string"
+for i in range(0, len(str), 2):
+    print(str[i])
