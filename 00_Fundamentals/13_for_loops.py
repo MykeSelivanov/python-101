@@ -33,3 +33,14 @@ for i, element in enumerate(tup):
 str = "my string"
 for i in range(0, len(str), 2):
     print(str[i])
+
+lst = [1, 2, 3, 3, 5, 67, 345, 4, 4, 4, 4]
+for num in lst:
+    if num == 4:
+        break
+    print(num)
+
+for num in lst:
+    if num == 3:
+        continue
+    print(num)
