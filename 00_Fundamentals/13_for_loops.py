@@ -44,3 +44,14 @@ for num in lst:
     if num == 3:
         continue
     print(num)
+
+for i in range(4):
+    for j in range(4):
+        for w in range(4):
+            print(i, j, w)
+
+list1 = [[1,2], [3,4], [5,6], [7,8]]
+for i in range(len(list1)):
+    internal_list = list1[i]
+    for j in range(len(internal_list)):
+        print(internal_list[j])
