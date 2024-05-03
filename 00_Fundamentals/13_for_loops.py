@@ -63,3 +63,18 @@ for i, char in enumerate(str):
     if char == "w":
         print("Postion of w is : ", i)
 
+nums = []
+for i in range(3):
+    num = input("Enter a number: ")
+    nums.append(int(num))
+print(nums)
+
+words = ("hello", "test", "this", "name", "123", "word")
+target = "name1"
+found = False
+for word in words:
+    if word == target:
+        print("Target found")
+        break
+else: 
+    print("Target not found")
