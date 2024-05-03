@@ -55,3 +55,11 @@ for i in range(len(list1)):
     internal_list = list1[i]
     for j in range(len(internal_list)):
         print(internal_list[j])
+
+
+# Some examples
+str = "hello world"
+for i, char in enumerate(str):
+    if char == "w":
+        print("Postion of w is : ", i)
+
