@@ -15,9 +15,10 @@ while True:
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 result = 0
 idx = 0
-while result < 9:
+while result < 9 and idx < len(lst):
     num = lst[idx]
     result += num
     print(num)
     idx += 14
+
 
