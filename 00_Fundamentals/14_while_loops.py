@@ -21,4 +21,13 @@ while result < 9 and idx < len(lst):
     print(num)
     idx += 14
 
+lst2 = [2, 3, 3, -2, -1, -2]
+i = 0
 
+while i < len(lst):
+    if lst[i] == -2:
+        print("-2 found!")
+        break
+    i += 1
+else:
+    print("didn't find -2")
