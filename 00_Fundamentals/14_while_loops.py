@@ -21,7 +21,7 @@ while result < 9 and idx < len(lst):
     print(num)
     idx += 14
 
-lst2 = [2, 3, 3, -2, -1, -2]
+lst2 = [2, 3, 3, 2, -1, 2]
 i = 0
 
 while i < len(lst):
