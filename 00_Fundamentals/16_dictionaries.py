@@ -14,3 +14,7 @@ print(x)
 del x["key"]
 print(x) # {'key2': 'value2'}
 
+keys = x.keys()
+print(keys)
+values = x.values()
+print(values)
