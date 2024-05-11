@@ -31,3 +31,22 @@ for key in x:
 
 for key, value in x.items():
     print(key, value)
+
+test2 = {"key1": "value1", 2: "value2", 34: "value3", "key4": 10 }
+test2["key5"] = test2.get("key5", 0) + 1
+print(test2) # {'key1': 'value1', 2: 'value2', 34: 'value3', 'key4': 10, 'key5': 1}
+
+characters = {}
+str = "hello world"
+for char in str:
+    characters[char] = characters.get(char, 0) + 1
+print(characters) # {'h': 1, 'e': 1, 'l': 3, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1}
+
+counts = {}
+while True:
+    num = input("Number (enter q to quit): ")
+    if num == "q":
+        break
+    num = int(num)
+    counts[num] = counts.get(num, 0) + 1
+print(counts)
