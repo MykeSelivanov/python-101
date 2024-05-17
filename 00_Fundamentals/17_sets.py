@@ -14,3 +14,29 @@ print(len(x)) # 3
 x.clear()
 print(x) # set()
 
+contains = 1 in x
+print(contains)
+
+x = {1, 2}
+y = {2, 3}
+z = x.union(y)
+print(z) # {1, 2, 3}
+
+z1 = x | y
+print(z1) # {1, 2, 3}
+
+x = {1, 2, 3}
+x = {2, 3, 4, 5}
+z = y.intersection(x)
+print(z) # {2, 3}
+
+z1 = x & y
+print(z1) # {2, 3}
+
+x = {1, 2, 3}
+y = {1, 2, 4}
+z = y.difference(x)
+z1 = y - x
+print(z) # {4}
+print(z1) # {4}
+
