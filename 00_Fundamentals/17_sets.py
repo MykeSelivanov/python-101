@@ -39,3 +39,18 @@ z = y.difference(x)
 z1 = y - x
 print(z) # {4}
 print(z1) # {4}
+
+a = {1, 2, 3}
+b = {1, 2, 4}
+a.update(b)
+print(a)
+
+b.difference_update(a)
+print(b)
+
+x = {1, 2, 3} # x is a subset of y
+y = {1, 2, 3, 4, 5, 6} # y is a superset of x
+print(x.issubset(y)) # True
+print(x <= y) # True
+print(y.issuperset(x)) # True
+print(y >= x) # True
