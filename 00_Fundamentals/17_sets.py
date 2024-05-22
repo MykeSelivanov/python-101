@@ -54,3 +54,7 @@ print(x.issubset(y)) # True
 print(x <= y) # True
 print(y.issuperset(x)) # True
 print(y >= x) # True
+
+lst = [1, 2, 2, 2, 3, 4, 5, 6]
+set_x = set(lst)
+print(set_x) # {1, 2, 3, 4, 5, 6}
