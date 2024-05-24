@@ -20,3 +20,6 @@ except Exception as e:
     print("Exception!!!", e)
 finally:
     print("Finally done!")
+
+raise ValueError("This is test error!")
+raise Exception("This is a general exception!")
