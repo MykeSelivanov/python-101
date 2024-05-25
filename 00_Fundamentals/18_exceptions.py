@@ -21,5 +21,13 @@ except Exception as e:
 finally:
     print("Finally done!")
 
-raise ValueError("This is test error!")
-raise Exception("This is a general exception!")
+# raise ValueError("This is test error!")
+# raise Exception("This is a general exception!")
+
+while True:
+    num = input("Enter a number: ")
+    try: 
+        num = float(num)
+        break
+    except ValueError:
+        print("Not a valid float, try again!")
