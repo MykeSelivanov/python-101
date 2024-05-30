@@ -56,4 +56,3 @@ def sum_lists(list1, list2):
 
 sum1, sum2 = sum_lists([1,2,3,4,5], [0,10,20,30,40])
 print(sum1, sum2) #15 100
-
