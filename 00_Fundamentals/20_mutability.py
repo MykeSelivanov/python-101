@@ -23,3 +23,4 @@ def func(lst, x):
 a = []
 func(a, 2) # [2]
 print(a) # [2] - because a was mutated in the function call
+
