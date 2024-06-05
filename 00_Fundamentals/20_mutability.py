@@ -43,3 +43,4 @@ b = a[:]
 a.append(4)
 print(a, b) # [1, 2, 3, 4] [1, 2, 3]
 print(a is b) # False
+
