@@ -47,4 +47,3 @@ print(a is b) # False
 lst = [[1,2,3], [3,4]]
 lst[0].append(4)
 print(lst) # [[1, 2, 3, 4], [3, 4]]
-
