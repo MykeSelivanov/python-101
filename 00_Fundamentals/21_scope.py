@@ -12,3 +12,21 @@ else:
 
 print(value)
 
+def append_5(x):
+    x = x[:]
+    x.append(5)
+    print(x)
+x = []
+print(x)
+append_5(x)
+print(x)
+
+# global keyword is considered a bad practice
+value = 5
+def foo():
+    global  value # actually changes the value that is outside of the scope of this function
+    value = 10
+
+print(value) # 5
+foo()
+print(value) # 10
