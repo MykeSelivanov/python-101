@@ -16,3 +16,20 @@ print(round(3.14)) # 3
 # Math module
 import math
 
+x = math.sin(90)
+print(x)
+
+y = math.cos(math.pi)
+print(y)
+
+import random
+
+random_num = random.randint(1, 200)
+print(random_num)
+
+rand_num2 = random.randrange(0, 1000, 10)
+print(rand_num2)
+
+lst = ["he", "hi", "ho", "hello"]
+random_val = random.choice(lst)
+print(random_val)
