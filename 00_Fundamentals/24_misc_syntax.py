@@ -17,3 +17,13 @@ print(x, y) # 1 1
 
 x, y = 1, 2
 print(x, y) # 1, 2
+
+x, y, z = (1, 2, 3)
+print(x, y, z) # 1 2 3
+x, y, z = [4, 5, 6]
+print(x, y, z) # 4, 5, 6
+
+def foo():
+    """
+    this is the foo func
+    """
