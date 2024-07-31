@@ -15,5 +15,3 @@ class ExtraPerson:
 
 ep1 = ExtraPerson("Jim", 21)
 print(ep1.name, ep1.age) # Jim 21
-
-
