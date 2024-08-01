@@ -21,3 +21,10 @@ print(ep1.name) # Tim
 
 ep1.test = "test"
 print(ep1.test) # test
+
+class Fruit:
+    def __init__(self, name, calories) -> None:
+        self.name = name
+        self.calories = calories
+        
+apple = Fruit()
