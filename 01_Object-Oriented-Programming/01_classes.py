@@ -27,4 +27,6 @@ class Fruit:
         self.name = name
         self.calories = calories
         
-apple = Fruit()
+apple = Fruit("Apple", 100)
+apple.color = "red"
+print(apple.name, apple.color, apple.calories)
